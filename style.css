@@ -1,0 +1,48 @@
+
+body{
+    background-color:#3498db;
+    color:white;
+    margin:0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: 'Arial', sans-serif;
+}
+h2 {
+    transition: color 0.3s ease-in-out;
+}
+h2:hover{
+    color: coral;
+}
+#welcome{
+    color: aqua;
+    text-align:center;
+    font-size: 2em;
+}
+h1,h2{
+    font-style: italic;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+#social-links{
+    text-align: center;
+}
+#social-links img {
+    width: 40px; 
+    height: 40px; 
+}
+#social-links img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+ul {
+    margin-top: 20px;
+}
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px; 
+}
